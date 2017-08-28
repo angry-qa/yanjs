@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Решение для Школы Node.JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>Заполните форму</h1>
+      <form id="myForm" action="json/error.json">
+        <input type="text" name="fio" placeholder="ФИО" value="">
+        <input type="text" name="email" placeholder="Email" value="">
+        <input type="text" name="phone" placeholder="Телефон" value="">
+        <input type="submit" id="submitButton" value="Отправить">
+      </form>
+      <div id="resultContainer"></div>
+    </div>
+    <script src="index.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
